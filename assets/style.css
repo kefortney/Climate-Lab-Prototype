@@ -34,7 +34,7 @@ header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:2p
 .topnav .brand:hover{background:transparent;color:var(--old-mill)}
 .dropdown{position:relative;display:inline-block}
 .dropdown .dropbtn{cursor:pointer}
-.dropdown-content{display:none;position:absolute;background:var(--panel);min-width:220px;box-shadow:0 8px 16px rgba(21,71,52,0.15);z-index:100;border:2px solid var(--catamount-green);border-radius:4px;margin-top:0.5rem}
+.dropdown-content{display:none;position:absolute;background:var(--panel);min-width:220px;box-shadow:0 8px 16px rgba(21,71,52,0.15);z-index:100;border:2px solid var(--catamount-green);border-radius:4px;margin-top:-2px;top:100%}
 .dropdown-content a{color:var(--catamount-green);padding:0.75rem 1rem;text-decoration:none;display:block;font-size:0.85rem;text-transform:none;letter-spacing:normal}
 .dropdown-content a:hover{background:rgba(21,71,52,0.08);color:var(--old-mill)}
 .dropdown:hover .dropdown-content{display:block}
