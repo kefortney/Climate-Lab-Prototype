@@ -32,6 +32,13 @@ header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:2p
 .topnav a:hover,.topnav a:focus{color:var(--old-mill);background:rgba(21,71,52,0.05);text-decoration:none}
 .topnav .brand{color:var(--catamount-green);font-family:'Lora', Georgia, serif;font-weight:700;margin-right:auto;text-transform:none;font-size:1.4rem;letter-spacing:-0.01em;padding:0.5rem 0}
 .topnav .brand:hover{background:transparent;color:var(--old-mill)}
+.dropdown{position:relative;display:inline-block}
+.dropdown .dropbtn{cursor:pointer}
+.dropdown-content{display:none;position:absolute;background:var(--panel);min-width:220px;box-shadow:0 8px 16px rgba(21,71,52,0.15);z-index:100;border:2px solid var(--catamount-green);border-radius:4px;margin-top:0.5rem}
+.dropdown-content a{color:var(--catamount-green);padding:0.75rem 1rem;text-decoration:none;display:block;font-size:0.85rem;text-transform:none;letter-spacing:normal}
+.dropdown-content a:hover{background:rgba(21,71,52,0.08);color:var(--old-mill)}
+.dropdown:hover .dropdown-content{display:block}
+.dropdown:hover .dropbtn{color:var(--old-mill);background:rgba(21,71,52,0.05)}
 main{max-width:1200px;margin:0 auto;padding:3rem 2rem;display:block}
 .hero{background:linear-gradient(135deg, var(--catamount-green) 0%, var(--vermont-slate) 100%);color:var(--morning-fog);padding:3rem 2.5rem;border:none;border-radius:4px;margin-bottom:2.5rem;box-shadow:0 4px 12px rgba(21,71,52,0.15)}
 .hero h1{font-size:3rem;margin-bottom:1rem;color:var(--gold)}
